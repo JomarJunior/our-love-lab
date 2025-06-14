@@ -8,6 +8,7 @@ export default defineConfig({
   server: {
     historyApiFallback: true,
   },
+  base: '/our-love-lab',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
