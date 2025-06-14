@@ -15,7 +15,7 @@ async function hashPassword(password) {
 
 export const useAuthStore = defineStore('auth', {
     state: () => ({
-        loggedIn: true,
+        loggedIn: false,
     }),
 
     getters: {
