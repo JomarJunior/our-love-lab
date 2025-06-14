@@ -1,0 +1,28 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.valentine-letter {
+    font-family: 'Great Vibes', cursive !important;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
+    text-align: center;
+}
+
+.hero-title {
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.script-font {
+    font-family: 'Great Vibes', cursive;
+    color: #f4a5ae;
+}
+
+.hero-subtitle {
+    font-family: 'Quicksand', sans-serif;
+    color: #a07a8c;
+    margin-bottom: 2rem;
+}
