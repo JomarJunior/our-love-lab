@@ -24,10 +24,7 @@ export const useAuthStore = defineStore('auth', {
 
     actions: {
         async login(plainPassword) {
-            console.log('Attempting to log in with password:', plainPassword);
             const hashed = await hashPassword(plainPassword);
-            console.log('Hashed password:', hashed);
-            console.log('Expected hashed password:', HARD_HASHED_PASSWORD);
             if (hashed === HARD_HASHED_PASSWORD) {
                 this.loggedIn = true;
                 return true;

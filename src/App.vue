@@ -39,7 +39,6 @@ export default {
     },
     created() {
         this.showLoginDialog = !this.isAuthenticated;
-        console.log('App created, isAuthenticated:', this.isAuthenticated);
     },
 };
 </script>

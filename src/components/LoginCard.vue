@@ -74,9 +74,7 @@ export default {
     methods: {
         async handleLogin() {
             if (this.valid && this.password) {
-                console.log('Attempting to log in with password:', this.password);
                 this.authStore.login(this.password).then(() => {
-                    console.log(this.authStore.isLoggedIn ? 'Login successful' : 'Login failed');
                     if (this.authStore.isLoggedIn) {
                         this.$emit('login-success');
                     } else {
