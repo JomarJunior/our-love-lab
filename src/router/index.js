@@ -9,7 +9,7 @@ import PlaylistPage from '@/views/PlaylistPage.vue';
 
 const routes = [
     { path: '/', component: HomePage, name: 'home' },
-    { path: '/our-love-lab', redirect: '/' }, // Redirect for the base path
+    { path: '/our-love-lab', component: HomePage, name: 'home' }, // Alias for home
     { path: '/molecules', component: MoleculesPage, name: 'molecules' },
     { path: '/quiz', component: QuizPage, name: 'quiz' },
     { path: '/letter', component: LetterPage, name: 'letter' },
